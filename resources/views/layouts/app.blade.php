@@ -6,7 +6,7 @@
     @vite('resources/css/app.css')
     @yield('styles')
 </head>
-<body class="container flex flex-col justify-center items-center min-h-screen bg-pink-500">
+<body class="container flex flex-col justify-center items-center min-h-screen p-24">
 @yield('content')
 @yield('scripts')
 </body>
